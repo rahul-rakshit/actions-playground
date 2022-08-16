@@ -8,6 +8,6 @@ jobs:
   hello_world:
     name: Hello World
     runs-on: ubuntu-latest
-  steps:
-    - name: echo-hello
-      run: echo "Hello, world!"
+    steps:
+      - name: echo-hello
+        run: echo "Hello, world!"
