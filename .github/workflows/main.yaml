@@ -8,7 +8,11 @@ jobs:
   hello-world:
     name: Hello world
     runs-on: ubuntu-latest
+    container: node:16-bullseye
     steps:
       - id: echo-hello
         name: Say hello
         run: echo "Hello, world!"
+      - id: echo-node-version
+        name: Output node version
+        run: node --version
