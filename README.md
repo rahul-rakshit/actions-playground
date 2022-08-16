@@ -1,2 +1,3 @@
-# actions-playground
-A playground for me to learn github actions
+# Actions Playground
+
+A playground for me to learn GitHub Actions.
