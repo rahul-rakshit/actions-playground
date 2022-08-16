@@ -5,9 +5,10 @@ on:
       - trunk
 
 jobs:
-  hello_world:
-    name: Hello World
+  hello-world:
+    name: Hello world
     runs-on: ubuntu-latest
     steps:
-      - name: echo-hello
+      - id: echo-hello
+        name: Say hello
         run: echo "Hello, world!"
